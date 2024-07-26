@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    outline: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container>p{
+    font-size: small;
+}
+.footer-text{
+    width: 70%;
+    font-weight: 100;
+    opacity: 0.7;
+    font-size: 10px;
+    margin: auto;
+    background-color: #EAEAEA;
+    padding: .1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+.code-container input{
+    width: 60px;
+    height: 80px;
+    font-size: 50px;
+    border: solid 1px #EAEAEA;
+}
